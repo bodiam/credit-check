@@ -5,7 +5,10 @@ import org.credit.rule.Rule
 import org.credit.rule.RuleResult
 
 class CriminalRecordRule : Rule {
+
     override fun execute(application: CreditApplication): RuleResult {
+
+        println("Executing CriminalRecordRule")
 
         val criminal = application.member.name == "Erik"
 

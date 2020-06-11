@@ -4,9 +4,9 @@ import org.credit.application.CreditApplication
 import org.credit.rule.Rule
 import org.credit.rule.RuleResult
 
-
 class ProductPurchaseRule : Rule {
     override fun execute(application: CreditApplication): RuleResult {
+        println("Executing ProductPurchaseRule")
 
         val assessment = application.product.value < application.member.income * 4
 

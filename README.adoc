@@ -1,0 +1,8 @@
+= Credit check
+
+Demo application to test multiple fan out strategies
+
+== Coroutines
+
+* https://kotlinlang.org/docs/reference/coroutines/composing-suspending-functions.html
+* https://stackoverflow.com/questions/54854187/kotlin-coroutines-waiting-for-multiple-threads-to-finish
